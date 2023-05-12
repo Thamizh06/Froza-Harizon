@@ -1,0 +1,114 @@
+::-webkit-scrollbar{
+    display: none;
+}
+*{
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+    font-family: 'Poppins',sans-serif;
+}
+body{
+    overflow-x: hidden;
+    background:url("https://wallpapercave.com/dwp2x/wp8506298.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+
+    
+}
+.main-width{
+    width: 1400px;
+    max-width: 95%;
+    margin: 0 auto;
+}
+.box{
+    height: auto;
+    
+    width: auto;
+    
+    position: relative;
+}
+.box header .logo h2 a{
+    display: block;
+    font-size: 32px;
+    font-weight: 600;
+    text-decoration: none;
+    color: azure;
+    
+}
+.box header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+nav ul li{
+    display: inline-block;
+
+}
+nav ul li a{
+    text-decoration: none;
+    margin: 60px;
+    color: #054b16;
+    font-weight: 600;
+    border-bottom: 2px solid transparent;
+    background: transparent;
+}
+nav ul li a:hover{
+    font: 50px;
+    
+    background: linear-gradient(70deg,#9bf00b,#9bf00b,#fff);
+    border: #000 2px;
+    color:#054b16;
+    padding: 5px 10px;
+    transition:0.2s;
+    
+}
+nav ul li.button a{
+    background: transparent;
+    border:1px solid #f5dca8;
+    padding: 5px 10px;
+    color:white;
+    border-radius: 20px;
+}
+nav ul li.button:hover a{
+    border: 1px solid wheat;
+    background:radial-gradient(#66ff33 20%, #33cc33 10px,#00cc00 10px);
+    transition: 0.2s;
+}
+.content{
+    position: relative;
+    top: 300px;
+    right:840px
+    
+}
+ 
+
+.btn button{
+    margin-top: 20px;
+    padding: 10px 25px;
+    border-color: 1px solid black;
+    border-radius: 20px;
+    border-style: groove;
+
+}
+.btn button:hover{
+    margin-top: 20px;
+    padding: 10px 25px;
+    border-radius: 20px;
+    background:linear-gradient(120deg, #ff0000,#fff);
+
+}
+footer{
+    padding-top:60px;
+    gap: 30px;
+   
+}
+footer i{
+    padding-top: 10px;
+    padding-right: 15px;
+    
+}
+.image img{
+
+}
+
+    
